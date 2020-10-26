@@ -1,0 +1,29 @@
+<form class="compendiumfixer" autocomplete="off">
+  <!--top group containing settings-->
+  <div class="formgroup">
+    <h2 class="apptitle">Compendium Fixer</h2>
+
+    <!--choose the source compendium-->
+    <section class ="compendiumselector" id="sourcecompendiumselector">
+      <label for="sourcecompendiumdropdown">Source Compendium:</label>
+      <select class="compendiumdropdown" id="sourcecompendiumdropdown">
+        <option value="" selected disabled hidden>Source Compendium</option>
+      </select>
+      <button class="smallbutton" id="sourcecompendiumbutton">Select</button>
+    </section>
+
+    <!--choose the target compendium-->
+    <section class ="compendiumselector" id="targetcompendiumselector">
+      <label for="targetcompendiumdropdown">Target Compendium:</label>
+        <select class="compendiumdropdown" id="targetcompendiumdropdown" >
+          <option value="" selected disabled hidden>Target Compendium</option>
+        </select>
+        <button class="smallbutton" id="targetcompendiumbutton" >Select</button>
+      </section>
+    
+    <!--submission button section-->
+    <section class="centralizedbuttons" id="pushtostart">
+      <button class="bigbutton" id="fixcompendium" >Fix Compendium</button>
+      <button class="smallbutton" id="formreset" type="reset">Reset</button>
+    </section>
+  </form>

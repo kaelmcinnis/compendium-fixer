@@ -1,0 +1,31 @@
+.app.window-app.compendiumfixer .formgroup {
+  width: 400px;
+  height: 200px;
+  border-style: double;
+}
+
+.app.window-app.compendiumfixer .apptitle {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  justify-content: center;
+}
+
+.app.window-app.compendiumfixer .compendiumselector {
+  display: flex;
+  margin-left: 5px;
+}
+
+.app.window-app.compendiumfixer .smallbutton {
+  padding: 10px, 24px;
+  cursor: pointer;
+}
+
+.app.window-app.compendiumfixer .bigbutton {
+  padding: 10px, 24px;
+  cursor: pointer;
+}
+
+.app.window-app.compendiumfixer .pushtostart {
+ display: flex;
+}

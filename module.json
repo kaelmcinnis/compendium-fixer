@@ -1,0 +1,12 @@
+{
+	"name": "compendium-fixer",
+	"title": "Compendium Fixer",
+	"description": "its a demo",
+	"version": "0.0.1",
+	"author": "kael",
+	"esmodules": ["./compendium-fixer.js"],
+	"styles": ["./compendium-fixer.css"],
+	"packs": [],
+	"minimumCoreVersion": "0.6.6",
+	"compatibleCoreVersion": "0.6.6"
+}
